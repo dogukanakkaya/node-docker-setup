@@ -1,0 +1,14 @@
+##> Docker <##
+Dockerfile
+.dockerignore
+docker-compose*
+##/> Docker <##
+
+##> VCS <##
+.git
+.gitignore
+##/> VCS <##
+
+##> App <##
+node_modules
+##/> App <##

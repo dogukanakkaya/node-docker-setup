@@ -1,0 +1,9 @@
+services:
+  node:
+    build:
+      context: .
+      args:
+        - APP_ENV=prod 
+    environment:
+      - APP_ENV=prod
+    command: npm start

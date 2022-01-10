@@ -1,0 +1,12 @@
+services:
+  node:
+    build: 
+      context: .
+      args:
+        - APP_ENV=dev
+    volumes:
+      - ./:/app:ro
+      - /app/node_modules
+    environment:
+      - APP_ENV=dev
+    command: npm run dev
