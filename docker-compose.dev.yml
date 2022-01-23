@@ -5,7 +5,7 @@ services:
       args:
         - APP_ENV=dev
     volumes:
-      - ./:/app:ro
+      - ./:/app
       - /app/node_modules
     environment:
       - APP_ENV=dev
